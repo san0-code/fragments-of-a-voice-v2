@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: 'Georgia', serif;
   background: linear-gradient(to bottom, #f5f0e6, #cce0f5);
-  background-image: url("background.jpg"); /* 背景画像は別途用意してね */
+  background-image: url("https://san0-code.github.io/fragments-of-a-voice-v2/jpgbackground.jpg"); /* 背景画像は別途用意してね */
   background-size: cover;
   color: #333;
 }
