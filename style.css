@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: linear-gradient(to bottom, #f5f0e6, #cce0f5);
+  background-image: url('_04468059-4e26-458f-8015-1d3ba3e7c6f2.jpg'); /* 背景画像は別途用意してね */
+  background-size: cover;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 2em 1em;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  color: #666;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+.monologue {
+  text-align: center;
+  margin: 3em 1em;
+}
+
+.quote {
+  font-style: italic;
+  margin-top: 1em;
+}
+
+.search {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.search input {
+  padding: 0.5em;
+  width: 200px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+  margin: 2em;
+}
+
+.tags span {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 0.5em 1em;
+  border-radius: 20px;
+  font-size: 0.9em;
+}
+
+footer {
+  text-align: center;
+  margin: 3em 0;
+}
+
+.poetic-links li {
+  margin: 0.5em 0;
+  list-style: none;
+}
+
+
+.vertical-nav {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  z-index: 1000;
+}
+
+.vertical-nav ul {
+  display: flex !important;
+  flex-direction: column !important; /* ← ここが縦並びのポイント！ */
+  gap: 1em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.vertical-nav li {
+  margin: 0;
+}
+
+.vertical-nav a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 0.3em 0.6em;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  display: block;
+}
+
+
+nav.vertical-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+audio {
+  display: block;
+  margin: 2em auto;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.site-title {
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  font-size: 2.8em;
+  letter-spacing: 0.05em;
+}
+
+
+/* about.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f3f0; /* 背景色はここで変更可能 */
+  background-image: url('_04468059-4e26-458f-8015-1d3ba3e7c6f2.jpg'); /* 背景画像を使う場合はここに指定 */
+  background-size: cover;
+  background-position: center;
+  font-family: 'Georgia', serif;
+  color: #333;
+}
+
+.about-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.about-box {
+  background-color: rgba(255, 255, 255, 0.85); /* 透け感のある白背景で読みやすく */
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 700px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-box h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.about-box .en {
+  font-style: italic;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+.about-box .jp {
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f3f0;
+  background-image: url('_04468059-4e26-458f-8015-1d3ba3e7c6f2.jpg'); /* 必要なら背景画像を指定 */
+  background-size: cover;
+  background-position: center;
+  font-family: 'Georgia', serif;
+  color: #333;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.contact-box {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-box h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.contact-box .en {
+  font-style: italic;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.contact-box .jp {
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: 'Georgia', serif;
+  font-size: 1em;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #6a4e42;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #4e362f;
+}
+
