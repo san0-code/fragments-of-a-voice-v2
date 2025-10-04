@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: 'Georgia', serif;
   background: linear-gradient(to bottom, #f5f0e6, #cce0f5);
-  background-image: url("/fragments-of-a-voice-v2/_04468059-4e26-458f-8015-1d3ba3e7c6f2.jpg"); /* 背景画像は別途用意してね */
+  background-image: url("./_04468059-4e26-458f-8015-1d3ba3e7c6f2.jpg"); /* 背景画像は別途用意してね */
   background-size: cover;
   color: #333;
 }
